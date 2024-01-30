@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="flex flex-col min-h-screen">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cornell Photos - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .text-cornell-red { color: #B31B1B; }
+    .bg-cornell-red { background-color: #B31B1B; }
+    body { flex-grow: 1; }
+    .main-content { padding-top: 4rem; }
+    .border-cornell-red { border-color: #B31B1B; }
+    /* Custom styles for larger images */
+    .large-image { width: 90vw; max-width: 100%; height: auto; }
+  </style>
+</head>
+<body class="bg-white text-gray-800 flex flex-col">
+
+<nav class="fixed top-0 w-full bg-white shadow z-10">
+  <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+    <div class="flex items-center">
+      <img src="Images/img_1.png" alt="Your Name" class="h-16 w-16 rounded-full mr-3">
+      <a href="index.html" class="text-cornell-red font-semibold text-lg">My Winter Game Portfolio</a>
+    </div>
+    <div class="flex items-center">
+      <a href="index.html#home" class="mx-3 text-gray-800 hover:text-cornell-red">Home</a>
+      <a href="index.html#games" class="mx-3 text-gray-800 hover:text-cornell-red">Games</a>
+      <a href="index.html#cornell-photos" class="mx-3 text-gray-800 hover:text-cornell-red">Cornell Photos</a>
+    </div>
+  </div>
+</nav>
+
+<div class="flex-grow main-content">
+  <section class="py-20 bg-gray-100 text-gray-800">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl font-bold text-center text-cornell-red">ERIK AT CORNELL! YAY</h1>
+      <p class="mt-4 text-lg text-center">I wanted to leave you all on a humorous note with a splash of personality, so I decided to have some fun putting this page together! I hope this is as enjoyable for you to look at as it was for me to make! Thanks &#128513;</p>
+
+      <div class="flex flex-col items-center mt-8 space-y-8">
+        <figure>
+          <img src="Images/ErikAtTheLibrary.png" alt="Caption 1" class="large-image rounded-xl">
+          <figcaption class="text-center mt-2 text-xl">How I would study at Uris Library &#129300;&#128366; </figcaption>
+        </figure>
+        <figure>
+          <img src="Images/FLYINGCORRECT.png" alt="Caption 2" class="large-image rounded-xl">
+          <figcaption class="text-center mt-2 text-xl">The weather was so nice I started flying!&#128640;&#128640;</figcaption>
+        </figure>
+        <figure>
+          <img src="Images/POLYFORMCORRECT.png" alt="Caption 3" class="large-image rounded-xl">
+          <figcaption class="text-center mt-2 text-xl">I wonder what we were talking about?? (This one is actually from on campus &#128513;) </figcaption>
+        </figure>
+        <figure>
+          <img src="Images/GREATFULDEADBARTONHALL.png" alt="Caption 4" class="large-image rounded-xl">
+          <figcaption class="text-center mt-2 text-xl">Photo-bombing the famed Grateful Dead concert at Barton Hall &#128561;&#127928;&#129345;</figcaption>
+        </figure>
+        <figure>
+          <img src="Images/KIDME.jpg" alt="Caption 5" class="large-image rounded-xl">
+          <figcaption class="text-center mt-2 text-xl">Just found this funny picture of little me :) thought it would be a nice way to finish the website</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="bg-gray-800 text-white text-center py-4">
+  <p>Erik Pernebo Class of '24</p>
+</footer>
+
+</body>
+</html>
